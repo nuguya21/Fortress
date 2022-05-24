@@ -1,0 +1,6 @@
+name: Fortress
+main: com.github.nuguya21.fortress.plugin.FortressPlugin
+version: 1.0.0
+api-version: 1.18
+depend: [ kotlin-stdlib ]
+author: nuguya21
