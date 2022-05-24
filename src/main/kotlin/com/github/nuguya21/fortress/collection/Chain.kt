@@ -4,7 +4,6 @@ class Chain<V1, V2> {
     private val m1: MutableMap<V1, V2> = mutableMapOf()
     private val m2: MutableMap<V2, V1> = mutableMapOf()
 
-    @JvmName("plus1")
     fun plus(v1: V1, v2: V2) {
         if (v1 == v2) return
         m1[v1] = v2
